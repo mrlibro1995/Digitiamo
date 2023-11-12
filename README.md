@@ -14,6 +14,20 @@ The web application comprises two main pages:
 2. **Share Page:**
    - After submitting the URL request, detailed information about that request is presented on this page along with a shareable link.
 
+## Videos
+
+Watch the following videos for a better understanding of the application:
+
+- **[digitiamo_app (Shorter Video)](link_to_shorter_video):**
+  - Overview of the application's appearance and functionality.
+
+- **[digitiamo_code (Longer Video)](link_to_longer_video):**
+  - In-depth information about the coding and implementation.
+
+Feel free to explore the code, read the comments for additional insights, and don't hesitate to reach out if you have any questions or feedback.
+
+
+
 ## Setup Instructions
 
 Follow these steps to set up and run the application:
