@@ -1,29 +1,47 @@
 # Digitiamo Challenge Application
 Welcome to the Digitiamo Challenge Application! This web application is designed to demonstrate the integration of Flask (Python) for the backend, React.js (JavaScript) for the frontend, and SQLite for database management. The application consists of two main pages: the Input Form page, where users can submit a URL request, and the Share page, where detailed information about the submitted URL request is presented along with a shareable link.
-## Setup Instructions
-1. **Create React Application:**
-   ```bash
-   npx create-react-app app
-   cd app
-2. **Create Server Directory and Virtual Environment:**
-   ```bash
-   mkdir api
-   virtualenv -p python3 venv
-3. **Activate Virtual Environment (Windows):**
-   ```bash
-   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   .\venv\Scripts\activate
-4. **Install Flask:**
-   ```bash
-   pip install flask
-   pip install python-dotenv
-5. **Create `api.py` File:**
-    - Create a file named `api.py` in the `api` directory and add the server code.
-6. **Create `.env` File:**
-    - Create a file named `.env` in the root directory and add the following content:
-    ```
-    FLASK_APP=api.py
-    FLASK_ENV=development
-    ```
+# Digitiamo Challenge Application
 
-   This file is used to configure Flask settings.
+Welcome to the Digitiamo Challenge Application! This project showcases my solution to the job interview challenge presented by Digitiamo. I've built this web application using Flask (Python) for the backend, React.js (JavaScript) for the frontend, and SQLite for database management.
+
+## Application Overview
+
+The web application comprises two main pages:
+
+1. **Input Form Page:**
+   - Users can insert a request by submitting a URL.
+  
+2. **Share Page:**
+   - After submitting the URL request, detailed information about that request is presented on this page along with a shareable link.
+
+## Setup Instructions
+
+Follow these steps to set up and run the application:
+
+```bash
+# Create React Application
+npx create-react-app app
+cd app
+
+# Create Server Directory (Flask) and Virtual Environment
+mkdir api
+virtualenv -p python3 venv
+
+# Activate Virtual Environment (Windows)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\activate
+
+# Install Flask and Python-Dotenv
+pip install flask
+pip install python-dotenv
+
+# Create `api.py` File
+# Write the server code in the `api.py` file.
+
+# Create `.env` File
+# Fill it with:
+# FLASK_APP=api.py
+# FLASK_ENV=development
+
+# Run Flask Project
+flask run
