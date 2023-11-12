@@ -7,13 +7,13 @@ import hashlib
 
 app = Flask(__name__)
 
-# API Key for getting Performance metrics from Google Cloud Platform
+# API Key for getting Performance metrics from Google Cloud Platform.
 api_key = "AIzaSyAMxH6RrD0C_l9rPEbWiu42lBW0GW35LAQ"
 
-# Create a SQLite database and a table for URL requests
+# Create a SQLite database and a table for URL requests.
 conn = sqlite3.connect("mydatabase.db")
 cursor = conn.cursor()
-# Create the "url_requests" table
+# Create the "url_requests" table.
 cursor.execute(
     """
     CREATE TABLE IF NOT EXISTS url_requests (
