@@ -10,3 +10,20 @@ Welcome to the Digitiamo Challenge Application! This web application is designed
    mkdir api
    virtualenv -p python3 venv
 3. **Activate Virtual Environment (Windows):**
+   ```bash
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   .\venv\Scripts\activate
+4. **Install Flask:**
+   ```bash
+   pip install flask
+   pip install python-dotenv
+5. **Create `api.py` File:**
+    - Create a file named `api.py` in the `api` directory and add the server code.
+6. **Create `.env` File:**
+    - Create a file named `.env` in the root directory and add the following content:
+    ```
+    FLASK_APP=api.py
+    FLASK_ENV=development
+    ```
+
+   This file is used to configure Flask settings.
