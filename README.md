@@ -3,13 +3,17 @@ Welcome to the Digitiamo Challenge Application! This web application is designed
 
 ## Application Overview
 
-The web application comprises two main pages:
+The web application is designed to analyze and display detailed information about user-submitted URL requests. It consists of two main pages: the Input Form Page and the Share Page.
 
-1. **Input Form Page:**
-   - Users can insert a request by submitting a URL.
-  
-2. **Share Page:**
-   - After submitting the URL request, detailed information about that request is presented on this page along with a shareable link.
+### Input Form Page
+On this page, users can submit a URL request. Once a request is submitted, the application analyzes the provided URL on the server. Relevant responses are generated, and both the request and response details are stored securely in the database.
+
+### Share Page
+After submitting a URL request, users are redirected to the Share Page. This page displays comprehensive information about the submitted request, including server details, location, and date. This information is retrieved from the database and presented in an organized dashboard format.
+
+In addition to request and response details, the application interacts with the Google Cloud Platform to obtain performance information about the URL. To ensure a seamless user experience, this process runs in parallel with fetching information from the backend. This ensures that the page continues to load without interruptions.
+
+To enhance security, the request_id is hashed before being transferred between pages. This precaution is implemented to prevent vulnerabilities.
 
 ## Videos
 
