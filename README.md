@@ -19,10 +19,10 @@ To enhance security, the request_id is hashed before being transferred between p
 
 Watch the following videos for a better understanding of the application:
 
-- **[digitiamo_app (Shorter Video)](link_to_shorter_video):**
+- **[digitiamo_app (Shorter Video)]([link_to_shorter_video](https://drive.google.com/file/d/19n2F5xB9Rzsw3m0HiNtWoUEjXOj18995/view?usp=drive_link)):**
   - Overview of the application's appearance and functionality.
 
-- **[digitiamo_code (Longer Video)](link_to_longer_video):**
+- **[digitiamo_code (Longer Video)]([link_to_longer_video](https://drive.google.com/file/d/1Vu2WBI3iwLBXuo7omDxmg5bG4o5Le1uR/view?usp=drive_link)):**
   - In-depth information about the coding and implementation.
 
 Feel free to explore the code, read the comments for additional insights, and don't hesitate to reach out if you have any questions or feedback.
