@@ -45,3 +45,14 @@ pip install python-dotenv
 
 # Run Flask Project
 flask run
+
+# Connect React to Flask
+# Add the following to `package.json`:
+# "start-flask-api": "cd api && flask run",
+# "proxy": "http://127.0.0.1:5000/"
+
+# Start Flask application (back)
+npm run start-flask-api
+
+# Start React application (front) in another tab
+npm start
